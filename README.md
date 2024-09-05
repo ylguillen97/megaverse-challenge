@@ -20,22 +20,23 @@ This project solves the **Crossmint Megaverse Challenge**, where different astra
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/yourusername/megaverse-challenge.git
+   git clone https://github.com/ylguillen97/megaverse-challenge.git
+   
    cd megaverse-challenge
    \`\`\`
 
-2. Install dependencies:
+3. Install dependencies:
    \`\`\`bash
    npm install
    \`\`\`
 
-3. Create a `.env` file in the root directory with the following content:
+4. Create a `.env` file in the root directory with the following content:
    \`\`\`bash
    CANDIDATE_ID="your-candidate-id"
    BASE_URL="https://challenge.crossmint.io/api"
    \`\`\`
 
-4. Compile the TypeScript code:
+5. Compile the TypeScript code:
    \`\`\`bash
    npx tsc
    \`\`\`
